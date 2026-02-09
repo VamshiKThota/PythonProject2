@@ -7,8 +7,6 @@ def test_google_title():
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
-
-
     driver = webdriver.Chrome(options=chrome_options)
     driver.get("https://www.google.com")
 
