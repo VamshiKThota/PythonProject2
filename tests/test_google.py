@@ -10,5 +10,5 @@ def test_beghou_title():
     driver = webdriver.Chrome(options=options)
     driver.get("https://www.beghou.com")
 
-    assert "google" in driver.title
+    assert "beghou" in driver.title
     driver.quit()
