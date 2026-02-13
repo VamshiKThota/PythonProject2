@@ -11,4 +11,6 @@ def test_beghou_title():
     driver.get("https://www.beghou.com")
 
     assert "Beghou" in driver.title
+
+
     driver.quit()
